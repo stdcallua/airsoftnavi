@@ -1,0 +1,15 @@
+D:\work\airsoftnavi\airsoftnavi\bin\Release\airsoftnavi.dll
+D:\work\airsoftnavi\airsoftnavi\bin\Release\airsoftnavi.airsoftnavi.apk
+D:\work\airsoftnavi\airsoftnavi\bin\Release\airsoftnavi.airsoftnavi-Signed.apk
+D:\work\airsoftnavi\airsoftnavi\obj\Release\airsoftnavi.csprojResolveAssemblyReference.cache
+D:\work\airsoftnavi\airsoftnavi\obj\Release\airsoftnavi.dll
+D:\work\airsoftnavi\airsoftnavi\obj\Release\android\bin\airsoftnavi.airsoftnavi.apk
+D:\work\airsoftnavi\airsoftnavi\obj\Release\res\layout\main.xml
+D:\work\airsoftnavi\airsoftnavi\obj\Release\res\values\strings.xml
+D:\work\airsoftnavi\airsoftnavi\obj\Release\res\drawable\icon.png
+D:\work\airsoftnavi\airsoftnavi\obj\Release\R.cs.flag
+D:\work\airsoftnavi\airsoftnavi\obj\Release\uploadflags.txt
+D:\work\airsoftnavi\airsoftnavi\obj\Release\res\layout\log.xml
+D:\work\airsoftnavi\airsoftnavi\obj\Release\res\menu\main.xml
+D:\work\airsoftnavi\airsoftnavi\obj\Release\res\layout\inputcodedialog.xml
+D:\work\airsoftnavi\airsoftnavi\obj\Release\res\layout\waypointeditor.xml

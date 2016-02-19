@@ -1,0 +1,19 @@
+﻿<Properties StartupItem="airsoftnavi.csproj" RefactoringSettings.EnableRefactorings="True">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" PreferredExecutionTarget="Android.2b5899aa" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="MainActivity.cs">
+    <Files>
+      <File FileName="MainActivity.cs" Line="64" Column="5" />
+      <File FileName="Properties\AndroidManifest.xml" Line="1" Column="1" />
+      <File FileName="WayPoint.cs" Line="24" Column="1" />
+      <File FileName="Resources\menu\Main.xml" Line="1" Column="1" />
+      <File FileName="Resources\values\Strings.xml" Line="15" Column="2" />
+      <File FileName="Resources\Resource.Designer.cs" Line="1" Column="1" />
+      <File FileName="WayPointEditor.cs" Line="30" Column="4" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.airsoftnavi AndroidDesignerPreferredDevice="Nexus 4" AndroidDesignerPreferredTheme="Theme.Black.NoTitleBar" AndroidDeviceId-Release="2b5899aa" />
+</Properties>

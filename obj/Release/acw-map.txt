@@ -1,0 +1,2 @@
+airsoftnavi.MainActivity;airsoftnavi.MainActivity
+airsoftnavi.WayPointEditor;airsoftnavi.WayPointEditor
