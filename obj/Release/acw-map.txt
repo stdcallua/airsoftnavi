@@ -1,2 +1,7 @@
 airsoftnavi.MainActivity;airsoftnavi.MainActivity
+airsoftnavi.WayPointAdapter;airsoftnavi.WayPointAdapter
 airsoftnavi.WayPointEditor;airsoftnavi.WayPointEditor
+airsoftnavi.WPEditorGPS;airsoftnavi.WPEditorGPS
+airsoftnavi.WPEditorInformation;airsoftnavi.WPEditorInformation
+airsoftnavi.WPEditorImages;airsoftnavi.WPEditorImages
+airsoftnavi.WayPointList;airsoftnavi.WayPointList

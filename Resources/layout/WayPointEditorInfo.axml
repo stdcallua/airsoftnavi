@@ -1,9 +1,30 @@
-﻿
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:text="Название:"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText1"
+        android:text="ввв в в в в вв вввв в в в в в в в в в в в вв в в в вв в в вв в в в в в в вввыаываываываываываываыва" />
+    <TextView
+        android:text="Описание:"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText1"
+        android:text="
 using Android.App;
 using Android.Content;
 using Android.OS;
@@ -13,7 +34,7 @@ using Android.Widget;
 
 namespace airsoftnavi
 {
-	[Activity (Label = "WayPointEditor")]			
+	[Activity (Label = &quot;WayPointEditor&quot;)]			
 	public class WayPointEditor : TabActivity
 	{
 		public static WayPoint WayPoint{ get; set; }
@@ -23,16 +44,10 @@ namespace airsoftnavi
 			base.OnCreate (savedInstanceState);
             
 			SetContentView(View.Inflate(Application.Context, Resource.Layout.WayPointEditor, null));
-            CreateTab(typeof(WPEditorGPS), "wpeeditor_gsp", "GPS", Resource.Drawable.Icon);
-			CreateTab(typeof(WPEditorInformation), "wpeeditor_information", "Info", Resource.Drawable.Icon);
-			CreateTab(typeof(WPEditorImages), "wpeeditor_images", "Images", Resource.Drawable.Icon);
+            CreateTab(typeof(WPEditorGPS), &quot;wpeeditor_gsp&quot;, &quot;GPS&quot;, Resource.Drawable.Icon);
+			CreateTab(typeof(WPEditorInformation), &quot;wpeeditor_information&quot;, &quot;Info&quot;, Resource.Drawable.Icon);
+			CreateTab(typeof(WPEditorImages), &quot;wpeeditor_images&quot;, &quot;Images&quot;, Resource.Drawable.Icon);
         }
-
-		public override Boolean OnCreateOptionsMenu(IMenu menu)
-		{
-			MenuInflater.Inflate(Resource.Menu.WPEMenu, menu);
-			return base.OnCreateOptionsMenu(menu);
-		}
 
         private void CreateTab(Type activityType, string tag, string label, int drawableId)
         {
@@ -85,3 +100,5 @@ namespace airsoftnavi
 	}
 }
 
+" />
+</LinearLayout>

@@ -63,17 +63,17 @@ namespace airsoftnavi
 			// aapt resource value: 0x7f060005
 			public const int Console = 2131099653;
 			
-			// aapt resource value: 0x7f060006
-			public const int analogClock1 = 2131099654;
-			
 			// aapt resource value: 0x7f060003
 			public const int buttonCheckCode = 2131099651;
+			
+			// aapt resource value: 0x7f060006
+			public const int editText1 = 2131099654;
 			
 			// aapt resource value: 0x7f060000
 			public const int inputCode = 2131099648;
 			
-			// aapt resource value: 0x7f060007
-			public const int new_waypoint = 2131099655;
+			// aapt resource value: 0x7f060008
+			public const int new_waypoint = 2131099656;
 			
 			// aapt resource value: 0x7f060004
 			public const int scrollView1 = 2131099652;
@@ -84,14 +84,23 @@ namespace airsoftnavi
 			// aapt resource value: 0x7f060001
 			public const int textView1 = 2131099649;
 			
-			// aapt resource value: 0x7f060008
-			public const int waypoints = 2131099656;
-			
 			// aapt resource value: 0x7f060009
-			public const int waypoints1 = 2131099657;
+			public const int waypoints = 2131099657;
 			
 			// aapt resource value: 0x7f06000a
-			public const int waypoints2 = 2131099658;
+			public const int waypoints1 = 2131099658;
+			
+			// aapt resource value: 0x7f06000b
+			public const int waypoints2 = 2131099659;
+			
+			// aapt resource value: 0x7f06000c
+			public const int waypointsSave = 2131099660;
+			
+			// aapt resource value: 0x7f06000d
+			public const int waypointsUpdateGPS = 2131099661;
+			
+			// aapt resource value: 0x7f060007
+			public const int wpCaption = 2131099655;
 			
 			static Id()
 			{
@@ -121,6 +130,15 @@ namespace airsoftnavi
 			// aapt resource value: 0x7f030004
 			public const int WayPointEditorGPS = 2130903044;
 			
+			// aapt resource value: 0x7f030005
+			public const int WayPointEditorImages = 2130903045;
+			
+			// aapt resource value: 0x7f030006
+			public const int WayPointEditorInfo = 2130903046;
+			
+			// aapt resource value: 0x7f030007
+			public const int WayPointList = 2130903047;
+			
 			static Layout()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
@@ -136,6 +154,9 @@ namespace airsoftnavi
 			
 			// aapt resource value: 0x7f050000
 			public const int Main = 2131034112;
+			
+			// aapt resource value: 0x7f050001
+			public const int WPEMenu = 2131034113;
 			
 			static Menu()
 			{

@@ -13,3 +13,8 @@ D:\work\airsoftnavi\airsoftnavi\obj\Release\res\layout\log.xml
 D:\work\airsoftnavi\airsoftnavi\obj\Release\res\menu\main.xml
 D:\work\airsoftnavi\airsoftnavi\obj\Release\res\layout\inputcodedialog.xml
 D:\work\airsoftnavi\airsoftnavi\obj\Release\res\layout\waypointeditor.xml
+D:\work\airsoftnavi\airsoftnavi\obj\Release\res\layout\waypointeditorgps.xml
+D:\work\airsoftnavi\airsoftnavi\obj\Release\res\layout\waypointeditorinfo.xml
+D:\work\airsoftnavi\airsoftnavi\obj\Release\res\layout\waypointeditorimages.xml
+D:\work\airsoftnavi\airsoftnavi\obj\Release\res\layout\waypointlist.xml
+D:\work\airsoftnavi\airsoftnavi\obj\Release\res\menu\wpemenu.xml

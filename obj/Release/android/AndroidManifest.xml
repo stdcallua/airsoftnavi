@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="airsoftnavi.airsoftnavi" android:versionCode="1" android:versionName="1.0">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="airsoftnavi.airsoftnavi" android:versionCode="1" android:versionName="1.0" android:installLocation="auto">
   <uses-sdk android:minSdkVersion="10" />
   <application android:label="airsoftnavi" android:icon="@drawable/icon" android:name="mono.android.app.Application">
     <activity android:icon="@drawable/icon" android:label="airsoftnavi" android:name="airsoftnavi.MainActivity">
@@ -9,6 +9,10 @@
       </intent-filter>
     </activity>
     <activity android:label="WayPointEditor" android:name="airsoftnavi.WayPointEditor" />
+    <activity android:name="airsoftnavi.WPEditorGPS" />
+    <activity android:name="airsoftnavi.WPEditorInformation" />
+    <activity android:name="airsoftnavi.WPEditorImages" />
+    <activity android:label="WayPointList" android:name="airsoftnavi.WayPointList" />
     <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="airsoftnavi.airsoftnavi.mono.MonoRuntimeProvider.__mono_init__" />
   </application>
 </manifest>

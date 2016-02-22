@@ -14,36 +14,47 @@ public final class R {
         public static final int icon=0x7f020000;
     }
     public static final class id {
+        public static final int Console=0x7f060005;
+        public static final int buttonCheckCode=0x7f060003;
+        public static final int editText1=0x7f060006;
         public static final int inputCode=0x7f060000;
-        public static final int linearLayout1=0x7f060003;
-        public static final int linearLayout2=0x7f060004;
-        public static final int linearLayout3=0x7f060005;
-        public static final int linearLayout4=0x7f060006;
-        public static final int new_waypoint=0x7f060007;
-        public static final int tabHost1=0x7f060002;
+        public static final int new_waypoint=0x7f060008;
+        public static final int scrollView1=0x7f060004;
+        public static final int textGPSstatus=0x7f060002;
         public static final int textView1=0x7f060001;
-        public static final int waypoints=0x7f060008;
+        public static final int waypoints=0x7f060009;
+        public static final int waypoints1=0x7f06000a;
+        public static final int waypoints2=0x7f06000b;
+        public static final int waypointsSave=0x7f06000c;
+        public static final int waypointsUpdateGPS=0x7f06000d;
+        public static final int wpCaption=0x7f060007;
     }
     public static final class layout {
         public static final int inputcodedialog=0x7f030000;
         public static final int log=0x7f030001;
         public static final int main=0x7f030002;
         public static final int waypointeditor=0x7f030003;
+        public static final int waypointeditorgps=0x7f030004;
+        public static final int waypointeditorimages=0x7f030005;
+        public static final int waypointeditorinfo=0x7f030006;
+        public static final int waypointlist=0x7f030007;
     }
     public static final class menu {
         public static final int main=0x7f050000;
+        public static final int wpemenu=0x7f050001;
     }
     public static final class string {
         public static final int ApplicationName=0x7f040001;
         public static final int Hello=0x7f040000;
         public static final int gps_status_connected=0x7f040005;
         public static final int gps_status_disconected=0x7f040006;
+        public static final int input_code=0x7f040007;
         public static final int inputcode=0x7f040004;
         public static final int new_way_point=0x7f040002;
-        public static final int text_tab1=0x7f040007;
-        public static final int text_tab2=0x7f040008;
-        public static final int text_tab3=0x7f040009;
-        public static final int text_tab_header=0x7f04000a;
+        public static final int text_tab1=0x7f040008;
+        public static final int text_tab2=0x7f040009;
+        public static final int text_tab3=0x7f04000a;
+        public static final int text_tab_header=0x7f04000b;
         public static final int waypoints=0x7f040003;
     }
 }

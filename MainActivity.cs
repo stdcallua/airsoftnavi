@@ -19,6 +19,12 @@ namespace airsoftnavi
 		private Location _currentLocation;
 		private String _locationProvider;
 
+		public static String GetWPFolder()
+		{
+			
+			return Path.Combine ("AirsoftNavi", "WayPoints");
+		}
+
 		public Location CurrentLocation
 		{
 			get{ return _currentLocation;}
@@ -69,7 +75,7 @@ namespace airsoftnavi
                     //do something
                     return true;
 			case Resource.Id.waypoints:
-				StartActivity (typeof(WayPointEditor));
+				StartActivity (typeof(WayPointList));
 				//WayPointEditor editor = new WayPointEditor ();
 
 				//do something
