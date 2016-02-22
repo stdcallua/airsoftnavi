@@ -60,17 +60,38 @@ namespace airsoftnavi
 		public partial class Id
 		{
 			
+			// aapt resource value: 0x7f060005
+			public const int Console = 2131099653;
+			
+			// aapt resource value: 0x7f060006
+			public const int analogClock1 = 2131099654;
+			
+			// aapt resource value: 0x7f060003
+			public const int buttonCheckCode = 2131099651;
+			
 			// aapt resource value: 0x7f060000
 			public const int inputCode = 2131099648;
 			
+			// aapt resource value: 0x7f060007
+			public const int new_waypoint = 2131099655;
+			
+			// aapt resource value: 0x7f060004
+			public const int scrollView1 = 2131099652;
+			
 			// aapt resource value: 0x7f060002
-			public const int new_waypoint = 2131099650;
+			public const int textGPSstatus = 2131099650;
 			
 			// aapt resource value: 0x7f060001
 			public const int textView1 = 2131099649;
 			
-			// aapt resource value: 0x7f060003
-			public const int waypoints = 2131099651;
+			// aapt resource value: 0x7f060008
+			public const int waypoints = 2131099656;
+			
+			// aapt resource value: 0x7f060009
+			public const int waypoints1 = 2131099657;
+			
+			// aapt resource value: 0x7f06000a
+			public const int waypoints2 = 2131099658;
 			
 			static Id()
 			{
@@ -96,6 +117,9 @@ namespace airsoftnavi
 			
 			// aapt resource value: 0x7f030003
 			public const int WayPointEditor = 2130903043;
+			
+			// aapt resource value: 0x7f030004
+			public const int WayPointEditorGPS = 2130903044;
 			
 			static Layout()
 			{
@@ -138,23 +162,26 @@ namespace airsoftnavi
 			// aapt resource value: 0x7f040006
 			public const int gps_status_disconected = 2130968582;
 			
+			// aapt resource value: 0x7f040007
+			public const int input_code = 2130968583;
+			
 			// aapt resource value: 0x7f040004
 			public const int inputcode = 2130968580;
 			
 			// aapt resource value: 0x7f040002
 			public const int new_way_point = 2130968578;
 			
-			// aapt resource value: 0x7f040007
-			public const int text_tab1 = 2130968583;
-			
 			// aapt resource value: 0x7f040008
-			public const int text_tab2 = 2130968584;
+			public const int text_tab1 = 2130968584;
 			
 			// aapt resource value: 0x7f040009
-			public const int text_tab3 = 2130968585;
+			public const int text_tab2 = 2130968585;
 			
 			// aapt resource value: 0x7f04000a
-			public const int text_tab_header = 2130968586;
+			public const int text_tab3 = 2130968586;
+			
+			// aapt resource value: 0x7f04000b
+			public const int text_tab_header = 2130968587;
 			
 			// aapt resource value: 0x7f040003
 			public const int waypoints = 2130968579;

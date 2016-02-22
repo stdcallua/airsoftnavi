@@ -1,0 +1,9 @@
+D:\work\airsoftnavi\obj\Debug\assemblies\airsoftnavi.dll
+D:\work\airsoftnavi\obj\Debug\assemblies\Mono.Android.dll
+D:\work\airsoftnavi\obj\Debug\assemblies\mscorlib.dll
+D:\work\airsoftnavi\obj\Debug\assemblies\System.Core.dll
+D:\work\airsoftnavi\obj\Debug\assemblies\System.dll
+D:\work\airsoftnavi\obj\Debug\assemblies\System.Xml.dll
+D:\work\airsoftnavi\obj\Debug\assemblies\System.Xml.Linq.dll
+D:\work\airsoftnavi\obj\Debug\assemblies\System.Runtime.Serialization.dll
+D:\work\airsoftnavi\obj\Debug\assemblies\System.ServiceModel.Internals.dll

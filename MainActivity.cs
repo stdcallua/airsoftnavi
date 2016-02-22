@@ -63,9 +63,11 @@ namespace airsoftnavi
 			switch (item.ItemId)
 			{
 			case Resource.Id.new_waypoint:
-				ShowInputCodeDialog ();
-				//do something
-				return true;
+                    WayPointEditor.WayPoint = new WayPoint();
+                    StartActivity(typeof(WayPointEditor));
+                    //ShowInputCodeDialog ();
+                    //do something
+                    return true;
 			case Resource.Id.waypoints:
 				StartActivity (typeof(WayPointEditor));
 				//WayPointEditor editor = new WayPointEditor ();
@@ -93,9 +95,12 @@ namespace airsoftnavi
 
 		public void OnStatusChanged (string provider, Availability status, Bundle extras)
 		{
-			//status
-			//throw new NotImplementedException ();
-		}
+            _gpsStatus.Text = status == Availability.Available? GetString(Resource.String.gps_status_connected): GetString(Resource.String.gps_status_disconected);
+            //throw new NotImplementedException ();
+        }
+
+        TextView _gpsStatus;
+        Button _checkCode;
 
         protected override void OnCreate(Bundle bundle)
         {
@@ -103,14 +108,22 @@ namespace airsoftnavi
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.Main);
 
+            _gpsStatus = FindViewById<TextView>(Resource.Id.textGPSstatus);
+            _checkCode = FindViewById<Button>(Resource.Id.buttonCheckCode);
+            _checkCode.Click += _checkCode_Click;
             // Get our button from the layout resource,
             // and attach an event to it
-//            Button button = FindViewById<Button>(Resource.Id.MyButton);
+            //            Button button = FindViewById<Button>(Resource.Id.MyButton);
 
-//            button.Click += delegate { button.Text = string.Format("{0} clicks!", count++); };
+            //            button.Click += delegate { button.Text = string.Format("{0} clicks!", count++); };
         }
 
-		void InitializeLocationManager()
+        private void _checkCode_Click(object sender, EventArgs e)
+        {
+            ShowInputCodeDialog();
+        }
+
+        void InitializeLocationManager()
 		{
 			_locationManager = (LocationManager) GetSystemService(LocationService);
 			Criteria criteriaForLocationService = new Criteria

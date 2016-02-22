@@ -6,9 +6,32 @@
     android:minWidth="25px"
     android:minHeight="25px">
     <TextView
+        android:text="#Статус: "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1" />
+    <TextView
         android:text="Large Text"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/textView1" />
+        android:id="@+id/textGPSstatus" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonCheckCode"
+        android:text="@string/input_code" />
+    <ScrollView
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView1">
+        <TextView
+            android:text="asdsdflmgvlkdfmglkdfmglkdfm sfg lsjf lsdj                        sdsdflmgvlkdfmglkdfmglkdfm sfg lsjf lsdj              sdsdflmgvlkdfmglkdfmglkdfm sfg lsjf lsdj              sdsdflmgvlkdfmglkdfmglkdfm sfg lsjf lsdj              sdsdflmgvlkdfmglkdfmglkdfm sfg lsjf lsdj              sdsdflmgvlkdfmglkdfmglkdfm sfg lsjf lsdj              sdsdflmgvlkdfmglkdfmglkdfm sfg lsjf lsdj              sdsdflmgvlkdfmglkdfmglkdfm sfg lsjf lsdj  sdsdflmgvlkdfmglkdfmglkdfm sfg lsjf lsdj  sdsdflmgvlkdfmglkdfmglkdfm sfg lsjf lsdj  sdsdflmgvlkdfmglkdfmglkdfm sfg lsjf lsdj  sdsdflmgvlkdfmglkdfmglkdfm sfg lsjf lsdj   v sdsdflmgvlkdfmglkdfmglkdfm sfg lsjf lsdj              sdsdflmgvlkdfmglkdfmglkdfm sfg lsjf lsdj sdsdflmgvlkdfmglkdfmglkdfm sfg lsjf lsdj              sdsdflmgvlkdfmglkdfmglkdfm sfg lsjf lsdj vsdsdflmgvlkdfmglkdfmglkdfm sfg lsjf lsdj  sdsdflmgvlkdfmglkdfmglkdfm sfg lsjf lsdj sdsdflmgvlkdfmglkdfmglkdfm sfg lsjf lsdj sdsdflmgvlkdfmglkdfmglkdfm sfg lsjf lsdj sdsdflmgvlkdfmglkdfmglkdfm sfg lsjf lsdj  sdsdflmgvlkdfmglkdfmglkdfm sfg lsjf lsdj  sdsdflmgvlkdfmglkdfmglkdfm sfg lsjf lsdj  sdsdflmgvlkdfmglkdfmglkdfm sfg lsjf lsdj  sdsdflmgvlkdfmglkdfmglkdfm sfg lsjf lsdj  sdsdflmgvlkdfmglkdfmglkdfm sfg lsjf lsdj   sdsdflmgvlkdfmglkdfmglkdfm sfg lsjf lsdj  sdsdflmgvlkdfmglkdfmglkdfm sfg lsjf lsdj  sdsdflmgvlkdfmglkdfmglkdfm sfg lsjf lsdj  sdsdflmgvlkdfmglkdfmglkdfm sfg lsjf lsdj              sdsdflmgvlkdfmglkdfmglkdfm sfg lsjf lsdj              lsdjf lsdf lsdjf lsdjflskdjfs lslkdf skdjf lsdjf l lksjflskd ldkfj lkfjsldkfj  sdlf lksdjf sldfj ls lkf"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/Console"
+            android:singleLine="false" />
+    </ScrollView>
 </LinearLayout>

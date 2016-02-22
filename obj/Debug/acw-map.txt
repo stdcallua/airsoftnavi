@@ -1,0 +1,12 @@
+airsoftnavi.MainActivity, airsoftnavi;md5ebcfec059b113a1c701b687dbf0ac5a0.MainActivity
+airsoftnavi.MainActivity, airsoftnavi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5ebcfec059b113a1c701b687dbf0ac5a0.MainActivity
+airsoftnavi.MainActivity;md5ebcfec059b113a1c701b687dbf0ac5a0.MainActivity
+airsoftnavi.MainActivity;md5ebcfec059b113a1c701b687dbf0ac5a0.MainActivity
+airsoftnavi.WayPointEditor, airsoftnavi;md5ebcfec059b113a1c701b687dbf0ac5a0.WayPointEditor
+airsoftnavi.WayPointEditor, airsoftnavi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5ebcfec059b113a1c701b687dbf0ac5a0.WayPointEditor
+airsoftnavi.WayPointEditor;md5ebcfec059b113a1c701b687dbf0ac5a0.WayPointEditor
+airsoftnavi.WayPointEditor;md5ebcfec059b113a1c701b687dbf0ac5a0.WayPointEditor
+airsoftnavi.WPEEditorGPS, airsoftnavi;md5ebcfec059b113a1c701b687dbf0ac5a0.WPEEditorGPS
+airsoftnavi.WPEEditorGPS, airsoftnavi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5ebcfec059b113a1c701b687dbf0ac5a0.WPEEditorGPS
+airsoftnavi.WPEEditorGPS;md5ebcfec059b113a1c701b687dbf0ac5a0.WPEEditorGPS
+airsoftnavi.WPEEditorGPS;md5ebcfec059b113a1c701b687dbf0ac5a0.WPEEditorGPS
